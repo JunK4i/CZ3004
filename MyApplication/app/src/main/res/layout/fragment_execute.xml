@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corner">
+
+    <Chronometer
+        android:id="@+id/text_view_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="100dp"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_view_countdown2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_start_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_countdown"
+        android:text="RUn"
+        android:backgroundTint="@color/black1"
+        android:textColor="@color/white1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_view_countdown"
+        app:layout_constraintTop_toTopOf="@+id/text_view_countdown" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white1"
+        android:layout_below="@+id/text_view_countdown"
+        android:layout_toEndOf="@+id/button_start_pause"
+        android:text="reset"
+        android:backgroundTint="@color/black1"
+        app:layout_constraintBottom_toBottomOf="@+id/text_view_countdown"
+        app:layout_constraintEnd_toEndOf="@+id/button_start_pause"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/button_start_pause"
+        app:layout_constraintTop_toBottomOf="@+id/button_start_pause"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_view_image_recognition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Image Recognition"
+        android:textColor="@color/black1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_view_countdown"
+        app:layout_constraintStart_toStartOf="@+id/text_view_countdown" />
+
+    <Chronometer
+        android:id="@+id/text_view_countdown2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="100dp"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown" />
+
+    <Button
+        android:id="@+id/button_start_pause2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_countdown"
+        android:text="Run"
+        android:textColor="@color/white1"
+        android:backgroundTint="@color/black1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/text_view_countdown2"
+        app:layout_constraintTop_toTopOf="@+id/text_view_countdown2" />
+
+    <Button
+        android:id="@+id/button_reset2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_countdown"
+        android:layout_toEndOf="@+id/button_start_pause"
+        android:text="reset"
+        android:textColor="@color/white1"
+        android:backgroundTint="@color/black1"
+        app:layout_constraintBottom_toBottomOf="@+id/text_view_countdown2"
+        app:layout_constraintEnd_toEndOf="@+id/button_start_pause2"
+        app:layout_constraintStart_toStartOf="@+id/button_start_pause2"
+        app:layout_constraintTop_toBottomOf="@+id/button_start_pause2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_view_fastest_movement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Fastest Movement"
+        android:textColor="@color/black1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_view_countdown2"
+        app:layout_constraintStart_toStartOf="@+id/text_view_countdown2" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

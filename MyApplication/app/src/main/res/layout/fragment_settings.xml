@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corner"
+    tools:context=".Fragments.FragmentSettings">
+
+
+    <TextView
+        android:id="@+id/obstacleSettings"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@+id/manualSwitch"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Drag and Drop Obstacles"
+        android:textColor="@color/black1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black1"
+        android:text="Send Map"
+        android:textColor="@color/white1"
+        app:layout_constraintEnd_toEndOf="@+id/dirSelect"
+        app:layout_constraintStart_toEndOf="@+id/ySelect"
+        app:layout_constraintTop_toBottomOf="@+id/dirSelect" />
+
+    <Button
+        android:id="@+id/btnResetGame1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/black1"
+        android:text="Reset Game1"
+        android:textColor="@color/white1"
+        app:layout_constraintBottom_toTopOf="@+id/btnResetBluetooth"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <Button
+        android:id="@+id/btnResetBluetooth"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black1"
+        android:text="Reset BT"
+        android:textColor="@color/white1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnResetGame1"
+        app:layout_constraintStart_toStartOf="@+id/btnResetGame1" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black1"
+        android:text="Save"
+        android:textColor="@color/white1"
+        app:layout_constraintBottom_toTopOf="@+id/btnResetGame1"
+        app:layout_constraintEnd_toStartOf="@+id/btnLoad"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black1"
+        android:text="Load"
+        android:textColor="@color/white1"
+        app:layout_constraintBottom_toTopOf="@+id/btnResetGame1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <Switch
+        android:id="@+id/manualSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Manual:"
+        android:textOff="Off"
+        android:textOn="On"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <NumberPicker
+        android:id="@+id/xSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ySelect"
+        app:layout_constraintEnd_toStartOf="@+id/ySelect"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ySelect"></NumberPicker>
+
+    <NumberPicker
+        android:id="@+id/ySelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dirSelect"
+        app:layout_constraintEnd_toStartOf="@+id/dirSelect"
+        app:layout_constraintTop_toTopOf="@+id/dirSelect"></NumberPicker>
+
+    <NumberPicker
+        android:id="@+id/dirSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/obstacleSettings"></NumberPicker>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="28dp"
+        android:text="X"
+        android:textColor="@color/black1"
+        app:layout_constraintBottom_toTopOf="@+id/xSelect"
+        app:layout_constraintEnd_toEndOf="@+id/xSelect"
+        app:layout_constraintStart_toStartOf="@+id/xSelect" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="27dp"
+        android:text="Y"
+        android:textColor="@color/black1"
+        app:layout_constraintBottom_toTopOf="@+id/ySelect"
+        app:layout_constraintEnd_toEndOf="@+id/ySelect"
+        app:layout_constraintStart_toStartOf="@+id/ySelect" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="5dp"
+        android:text="Direction"
+        android:textColor="@color/black1"
+        app:layout_constraintBottom_toTopOf="@+id/dirSelect"
+        app:layout_constraintEnd_toEndOf="@+id/dirSelect"
+        app:layout_constraintStart_toStartOf="@+id/dirSelect" />
+
+    <Button
+        android:id="@+id/btnAddObs"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="65dp"
+        android:backgroundTint="@color/black1"
+        android:text="Add Obs"
+        app:layout_constraintBottom_toBottomOf="@+id/dirSelect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dirSelect"
+        app:layout_constraintTop_toTopOf="@+id/dirSelect" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

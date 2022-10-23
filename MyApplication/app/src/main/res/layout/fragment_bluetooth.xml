@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corner"
+    tools:context=".Fragments.FragmentBluetooth">
+
+    <ListView
+        android:id="@+id/list_conversation2"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="410dp"
+        android:background="@drawable/rounded_corner2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/list_conversation"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/rounded_corner_blackborer"
+        android:gravity="center_horizontal"
+        android:text="Received"
+        android:textColor="@color/black1"
+        app:layout_constraintBottom_toTopOf="@+id/list_conversation2"
+        app:layout_constraintEnd_toEndOf="@+id/list_conversation2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/list_conversation2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/rounded_corner_blackborer"
+        android:gravity="center_horizontal"
+        android:text="Sent"
+        android:textColor="@color/black1"
+        app:layout_constraintBottom_toTopOf="@+id/list_conversation"
+        app:layout_constraintEnd_toEndOf="@+id/list_conversation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/list_conversation"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ListView
+        android:id="@+id/list_conversation"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="410dp"
+        android:background="@drawable/rounded_corner2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/list_conversation2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_enter_message"
+        android:layout_width="263dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corner2"
+        app:layout_constraintBottom_toTopOf="@+id/status"
+        app:layout_constraintStart_toStartOf="@+id/list_conversation2"
+        app:layout_constraintTop_toBottomOf="@+id/resetButton" />
+
+    <Button
+        android:id="@+id/btn_send_msg"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/black1"
+        android:text="@string/str_label_btn_send"
+        android:textColor="@color/white1"
+        app:layout_constraintBottom_toBottomOf="@+id/ed_enter_message"
+        app:layout_constraintStart_toEndOf="@+id/ed_enter_message"
+        app:layout_constraintTop_toTopOf="@+id/ed_enter_message" />
+
+    <ProgressBar
+        android:id="@+id/progress_scan_devices"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/menu_search_devices" />
+
+    <ListView
+        android:id="@+id/list_paired_devices"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_corner2"
+        app:layout_constraintBottom_toTopOf="@+id/menu_enable_bluetooth"
+        app:layout_constraintStart_toStartOf="@+id/ed_enter_message" />
+
+    <ListView
+        android:id="@+id/list_available_devices"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_corner2"
+        app:layout_constraintBottom_toTopOf="@+id/menu_discoverable_bluetooth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/list_paired_devices" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/rounded_corner_blackborer"
+        android:gravity="center"
+        android:text="@string/str_available_devices"
+        android:textColor="@color/black1"
+        app:layout_constraintBottom_toTopOf="@+id/list_available_devices"
+        app:layout_constraintEnd_toEndOf="@+id/list_available_devices"
+        app:layout_constraintStart_toStartOf="@+id/list_available_devices" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/rounded_corner_blackborer"
+        android:gravity="center"
+        android:text="@string/str_paired_devices"
+        android:textColor="@color/black1"
+        app:layout_constraintBottom_toTopOf="@+id/list_paired_devices"
+        app:layout_constraintEnd_toEndOf="@+id/list_paired_devices"
+        app:layout_constraintStart_toStartOf="@+id/list_paired_devices" />
+
+    <ListView
+        android:id="@+id/status"
+        android:layout_width="365dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/rounded_corner_blackborer"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/list_conversation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/list_paired_devices" />
+
+    <Button
+        android:id="@+id/menu_enable_bluetooth"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black1"
+        android:text="@string/str_menu_bluetooth_on"
+        android:textColor="@color/white1"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/menu_disable_bluetooth"
+        app:layout_constraintStart_toStartOf="@+id/list_paired_devices" />
+
+    <Button
+        android:id="@+id/menu_disable_bluetooth"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="@color/black1"
+        android:text="@string/str_menu_bluetooth_off"
+        android:textColor="@color/white1"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/menu_enable_bluetooth" />
+
+    <Button
+        android:id="@+id/menu_discoverable_bluetooth"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="23dp"
+        android:backgroundTint="@color/black1"
+        android:text="@string/str_menu_discoverable"
+        android:textColor="@color/white1"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/menu_search_devices"
+        app:layout_constraintEnd_toEndOf="@+id/list_available_devices"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/menu_enable_bluetooth" />
+
+    <Button
+        android:id="@+id/menu_search_devices"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="@color/black1"
+        android:text="@string/str_menu_search_devices"
+        android:textColor="@color/white1"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/menu_discoverable_bluetooth"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/menu_discoverable_bluetooth" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black1"
+        android:text="Reset"
+        android:textColor="@color/white1"
+        app:layout_constraintEnd_toEndOf="@+id/list_conversation2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/list_conversation2"
+        app:layout_constraintTop_toBottomOf="@+id/list_conversation2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

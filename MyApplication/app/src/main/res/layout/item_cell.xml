@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--To inflate the TileViewHolder in GridRecyclerAdapter-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_margin="1dp"
+    android:clipChildren="false"
+    android:background="@color/black1"
+    android:clipToPadding="false">
+
+    <TextView
+        android:layout_margin="1dp"
+        android:id="@+id/item_cell_textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:drawablePadding="-24dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/white1"
+        android:textSize="15dp"></TextView>
+</RelativeLayout>

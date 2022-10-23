@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="NORTH">N</string>
+    <string name="SOUTH">S</string>
+    <string name="EAST">E</string>
+    <string name="WEST">W</string>
+    <!-- Strings ued for ObstacleNumber-->
+<!--    <string-array name="obstacle_names">-->
+<!--        <item>1</item>-->
+<!--        <item>2</item>-->
+<!--        <item>3</item>-->
+<!--        <item>4</item>-->
+<!--        <item>5</item>-->
+<!--        <item>arrow_up</item>-->
+<!--        <item>arrow_down</item>-->
+<!--        <item>arrow_left</item>-->
+<!--        <item>A</item>-->
+<!--        <item>B</item>-->
+<!--        <item>C</item>-->
+<!--        <item>D</item>-->
+<!--        <item>6</item>-->
+<!--        <item>7</item>-->
+<!--        <item>8</item>-->
+<!--        <item>9</item>-->
+<!--        <item>Circle</item>-->
+<!--        <item>V</item>-->
+<!--        <item>W</item>-->
+<!--        <item>X</item>-->
+<!--        <item>Y</item>-->
+<!--        <item>Z</item>-->
+<!--        <item>arrow_right</item>-->
+<!--        <item>E</item>-->
+<!--        <item>F</item>-->
+<!--        <item>G</item>-->
+<!--        <item>H</item>-->
+<!--        <item>S</item>-->
+<!--        <item>T</item>-->
+<!--        <item>U</item>-->
+<!--        <item>Bullseye</item>-->
+<!--    </string-array>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="str_label_btn_send">Send</string>
+    <string name="str_menu_search_devices">Search Devices</string>
+    <string name="str_menu_bluetooth_on">Switch On</string>
+    <string name="str_menu_bluetooth_off">Switch Off</string>
+    <string name="str_paired_devices">Paired Devices</string>
+    <string name="str_available_devices">Available Devices</string>
+    <string name="str_input">Input</string>
+    <string name="str_output">Output</string>
+    <string name="str_menu_discoverable">Discoverable</string>
+</resources>

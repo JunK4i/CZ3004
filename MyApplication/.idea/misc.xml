@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2065347721822542" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.184" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/drawable/down.xml" value="0.184" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.184" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/drawable/left.xml" value="0.184" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/drawable/no.xml" value="0.184" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/drawable/right.xml" value="0.165" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/drawable/thump.xml" value="0.1" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/drawable/up.xml" value="0.1635" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/layout/device_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/layout/fragment_bluetooth.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/layout/fragment_chat.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/layout/fragment_execute.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/layout/item_cell.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/lauch/Documents/GitHub/cz3004mdp/Android/MyApplication/app/src/main/res/layout/message_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/rounded_corner3.xml" value="0.271" />
+        <entry key="app/src/main/res/drawable-v24/rounded_corner4.xml" value="0.271" />
+        <entry key="app/src/main/res/drawable-v24/rounded_corner_blackborer.xml" value="0.271" />
+        <entry key="app/src/main/res/drawable-v24/rounded_corner_transparentwborder.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/bluetooth_background.xml" value="0.166" />
+        <entry key="app/src/main/res/drawable/chat_background.xml" value="0.166" />
+        <entry key="app/src/main/res/drawable/circular_shape.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/down.xml" value="0.2545" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2825" />
+        <entry key="app/src/main/res/drawable/left.xml" value="0.2825" />
+        <entry key="app/src/main/res/drawable/right.xml" value="0.2825" />
+        <entry key="app/src/main/res/drawable/ripple.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/up.xml" value="0.2825" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.18253968253968253" />
+        <entry key="app/src/main/res/layout-ldltr-w800dp-h1340dp-normal-land/activity_main.xml" value="0.18253968253968253" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_main.xml" value="0.16171875" />
+        <entry key="app/src/main/res/layout-w1340dp/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/background_image_with_alpha.xml" value="0.26510416666666664" />
+        <entry key="app/src/main/res/layout/content_result.xml" value="0.2028985507246377" />
+        <entry key="app/src/main/res/layout/device_list_item.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/drawable_wrapper.xml" value="0.23697916666666666" />
+        <entry key="app/src/main/res/layout/fragment_bluetooth.xml" value="0.2966101694915254" />
+        <entry key="app/src/main/res/layout/fragment_execute.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.14114583333333333" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_cell.xml" value="0.5376344086021505" />
+        <entry key="app/src/main/res/layout/message_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/rounded.xml" value="0.16510416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.23828898926678174" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
