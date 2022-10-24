@@ -1,14 +1,14 @@
 ## CZ3004
-##Android App (Java) for CZ3004
+## Android App (Java) for CZ3004
 
-#Built and tested on: Samsung tab s8+
+###### Built and tested on: Samsung tab s8+
 
-#App Design Features:
+###### App Design Features:
   - MutableLiveData was used throughout the app to ensure consistent game state throughout different fragments
   - Classes and Helper Classes are well defined and organised. Will be easy to understand and extend functionality if needed 
   - Only need to be concerned with manipulating data in the MutableLivedata. The GridRecyclerAdapter will update the views accordingly.
  
-#App Highlight Features:
+###### App Highlight Features:
   - Fully fufill mdp checklist requirements
   
   - F1 themed design with sprite animation
