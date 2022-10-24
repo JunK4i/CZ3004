@@ -3,7 +3,7 @@
 
 _Built and tested on: Samsung tab s8+_
 
-![Screenshot of Test-Day Run. 2nd in cohort](Competition ss.jpeg)
+![Screenshot of Test-Day Run. 2nd in cohort](https://github.com/JunK4i/CZ3004-MDP-Android-App/blob/main/Competition%20ss.jpeg)
 
 **App Design Features:**
   - MutableLiveData was used throughout the app to ensure consistent game state throughout different fragments
