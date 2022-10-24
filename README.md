@@ -3,11 +3,13 @@
 
 _Built and tested on: Samsung tab s8+_
 
+![Screenshot of Test-Day Run. 2nd in cohort](Competition ss.jpeg)
+
 **App Design Features:**
   - MutableLiveData was used throughout the app to ensure consistent game state throughout different fragments
   - Classes and Helper Classes are well defined and organised. Will be easy to understand and extend functionality if needed 
-  - Only need to be concerned with manipulating data in the MutableLivedata. The GridRecyclerAdapter will update the views accordingly.
- 
+  - MVVM Model Architecture Pattern. The Model layer (Entity classes) is responsible to handle the data and logic of the game. The View layer observes the ViewModel and does not contain logic. The ViewModel layer serves as a link between the Model and the View by exposeing the data which are relevant to the view. There is a clear separation of concerns between Model View ViewModel.
+  
 **App Highlight Features:**
   - Fully fufill mdp checklist requirements
   
