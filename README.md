@@ -1,7 +1,8 @@
 ## CZ3004
 ## Android App (Java) for CZ3004
 
-_Built and tested on: Samsung tab s8+_
+_Built and tested on: Samsung tab s8+
+Team Video: https://www.youtube.com/watch?v=S1mjmqjEKJc
 
 ![Screenshot of Test-Day Run. 2nd in cohort](https://github.com/JunK4i/CZ3004-MDP-Android-App/blob/main/Competition%20ss.jpeg)
 
