@@ -30,7 +30,7 @@ Team Video: https://www.youtube.com/watch?v=S1mjmqjEKJc
     1. Save, Load functions for obstacle setup
     2. Reset Map
     3. Reset Bluetooth
-    4. Pre-run test button to help the team ensure that 
+    4. Pre-run test button to help the team ensure working robot-android connection
     5. Debug tool: Write to recieved messages to test App's response to various strings manually
     6. Switch for d-pad manual control to ensure no accidental touches during actual run
     
