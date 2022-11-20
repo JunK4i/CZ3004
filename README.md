@@ -41,7 +41,7 @@ Team Video: https://www.youtube.com/watch?v=S1mjmqjEKJc
   4. Some of the app's layout is hardcoded, meaning it will look weird with different screen sizes.
   5. The game timer stops when changing to a different fragment, as the counter is based on the chronometer element which lives on the fragment.
   6. Lack of animation to clearly demonstrate a 90 degree turn. 
-  7. The robot "teleports" based on instructions given by algorithm. Algo handled the rounding of exact degrees and position before passing it to us. 
+  7. The robot "teleports" based on instructions given by algorithm, thus a smooth turn cannot be seen. Algo handled the rounding of exact degrees and position before passing it to us. 
     
     
     
